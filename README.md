@@ -7,6 +7,7 @@ The structure is:
 
 ```
 /main_project_folder/
+   /.git (this is the local repo, just for the orgmode file, gitignore is set to ignore all others)
    /main.org
    /data
       /file1
@@ -14,6 +15,7 @@ The structure is:
    /code
       /func.R
    /results
+      /.git (this is the Public Github repo, for selectively publishing the results)
       /README.md
       /YYYY-MM-DD_a_short_descriptor
       /YYYY-MM-DD_shortname
